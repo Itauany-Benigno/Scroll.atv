@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Scrool CSS</title>
+	<style type="text/css">
+html {
+	scrool-behavior: smooth;
+}	
+body{
+	background-image: 	url("t21p.png");
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.3em;
+}
+nav, scroll-container{
+	display: block;
+	margin:0 auto;
+	text-align: center;
+}
+nav{
+	width: 600px;
+	padding: 5px;
+	border: 1px solid black;
+}
+scroll-container{
+	width:800px ;
+	height:auto ;
+	position: relative;
+}
+scroll-page{
+border:1px solid blueviolet;
+display:flex;
+align-items:center;
+justify-content:center;
+height:100%;
+font-size:2em ;
+margin:15px ;
+}
+#topo{
+position:absolute ;	
+bottom:15px ;
+right:25px ;
+}
+.page{
+	color: white;
+}
+
+	</style>
+
+</head>
+<body>
+      <nav>
+        <a href="#page-1">Seção 1</a> |
+        <a href="#page-2">Seção 2</a> |
+      	<a href="#page-3">Seção 3</a> |
+      </nav>
+      <scroll-container>
+      	<scroll-page class="page" id="page-1">
+      		<h2>Parte 1</h2> <hr>
+
+
+      		988 06MOON 18
+      		As perplexidades do horizonte de Dema não me ocorreram até meu nono ano. Foi então que comecei a contemplar o existencial e a decidir que tipo de impressão queria que minha vida fizesse. Naturalmente, para alimentar minha esperança, olhava para a distância da terra que me cultivara, só que desta vez com uma nova consciência da obstrução que minha ignorância juvenil me permitira ignorar. Esteve lá o tempo todo? Como eu não vi algo tão óbvio? Lembro-me do momento diariamente, pois a percepção colide diretamente com uma esperança única para o meu próprio futuro. Quando criança, eu olhei para Dema com admiração, hoje, eu sou forjada com frustração, enquanto passo todos os dias olhando para o topo da parede que nos manteve aqui. Foi no meu nono ano que aprendi que Dema não era minha casa. Esta vila, depois de todo esse tempo, foi minha armadilha. 
+          
+
+      		</scroll-page>
+      		  <scroll-container>
+      	<scroll-page  class="page" id="page-2">
+      		<h2>Parte 2</h2>
+
+ Antes de me tornar realizado, eu tinha profunda afeição por Dema. Havia uma estrutura maravilhosa para a cidade que colocou meus cuidados para descansar. Ruas e locais eram confiáveis, e as responsabilidades do dia pareciam ser realizadas com o mínimo de esforço. Uma vez que a tarefa fosse ensinada e compreendida, ficávamos encantados com nossa capacidade de cumprir nossas obrigações em tempo hábil e nos sentíamos seguros em saber que os deveres de amanhã seriam cumpridos com a mesma eficiência. Todos trabalhamos para representar nosso bispo com honra e sabíamos que cada habitante de nossa região tinha uma dedicação semelhante à consistência.
+          <a href="#page-1">Parte 1</a>
+
+      			</scroll-page>
+      			<scroll-container>
+      		<scroll-page  class="page" id="page-3">
+      		<h2>Parte 3</h2> <hr>
+
+
+      	  Keons incorporou o espírito dessa dedicação. Dos nove bispos de Dema, Keons era reverenciado como inabalável e franco, possuindo a capacidade de alcançar o foco que era raro para a maioria em nossa região. Todos nós o admiramos e nos sentimos honrados em ser habitantes de sua região. Embora tivéssemos ouvido a lenda da crueldade de outros bispos, Keons possuía um comportamento estóico diferente de qualquer um que eu já conheci, e estávamos todos orgulhosos de servir. 
+
+- Clancy 
+      		 <a href="#page-2">Seção 2</a>
+      		 </scroll-page>
+      		 <a id="topo" href="#top">Home</a>
+      	</scroll-container>
+      </body>
+</html>
